@@ -42,7 +42,7 @@
     "format": "prettier --write --cache --ignore-unknown .",
     "link-watch": "plugin-kit link-watch",
     "lint": "eslint .",
-    "prepublishOnly": "run-s build",
+    "prepublish": "run-s build",
     "watch": "pkg-utils watch --strict"
   },
   "dependencies": {
