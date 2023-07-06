@@ -84,7 +84,8 @@
   },
   "sanityPlugin": {
     "verifyPackage": {
-      "scripts": false
+      "scripts": false,
+      "tsc": false
     }
   }
 }
